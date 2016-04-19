@@ -50,6 +50,13 @@
 .thickButton {
   padding: 15px; }
 
+.row.shadow {
+  clear: both;
+  background-image: url("../images/lineBottomShadow.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 20px; }
+
 .logo {
   max-width: 100%; }
 
@@ -85,6 +92,24 @@
     width: 40%; }
   #openAccountButtonsContainer .liteButton {
     margin-left: 10%; }
+
+#mapGroupContainer #leftImgContainer img {
+  max-width: 100%; }
+#mapGroupContainer .oneGroup {
+  padding: 20px; }
+  #mapGroupContainer .oneGroup span {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    display: block;
+    font-size: 40px; }
+    #mapGroupContainer .oneGroup span img {
+      max-width: 40px;
+      height: auto; }
+  #mapGroupContainer .oneGroup h6 {
+    color: #912d25; }
+  #mapGroupContainer .oneGroup p {
+    margin: 5px 0px;
+    padding-left: 50px; }
 
 .sliderAllContainer .oneSlide {
   height: 459px;

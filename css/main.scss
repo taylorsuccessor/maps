@@ -47,4 +47,41 @@ background-color:#32302f;
   .button{ width:40%;}
   .liteButton{margin-left:10%; }
 }
+
+
+
+
+
+
+#mapGroupContainer{
+#leftImgContainer{
+
+img{
+max-width:100%;
+}
+}
+
+.oneGroup{
+  padding:20px;
+span{
+  float:left;
+  margin:0px 10px 10px 0px;
+  display:block;
+  font-size:40px;
+  img{max-width: 40px; height: auto;}
+}
+h6{ color:$mainColor;}
+p{ margin:5px 0px;
+
+  padding-left: 50px;}
+}
+
+  .mainGroup{}
+}
+
+
+
+
+
+
 @import 'slider';
