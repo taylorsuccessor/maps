@@ -1,0 +1,62 @@
+.bg-mainColor{background-color:$mainColor;}
+.horizontalUl li{
+
+  list-style: none;
+  float:left;
+}
+
+.horizontalUl li span,.horizontalUl li i{
+
+  color:$liteFontColor;
+}
+.horizontalUl li a{
+  color:$liteFontColor;
+  display:block;
+  padding:5px;
+}
+.horizontalUl li i{
+ padding:0px 50px;
+}
+
+
+.centerTitleText{
+  text-align:center;
+h3{
+  text-align:center;
+  margin:25px 0px 10px 0px;
+}
+  span{
+    display: block;
+    width:50px;
+    border-bottom:1px solid #000000;
+  margin:auto;
+  }
+}
+
+
+.button{
+  text-align: center;
+  text-decoration: none;
+  padding :5px 0px;
+border-radius:4px;
+  display:inline-block;
+}
+.primaryButton{
+background-color:$mainColor;
+  color:$liteFontColor;
+  border:1px solid $mainColor;
+
+}
+.liteButton{
+color:$mainColor;
+  border:1px solid $mainColor;
+  background-color:#ffffff;
+
+}
+
+.longButton{
+padding:5px 30px;
+}
+.thickButton{
+padding:15px;
+}

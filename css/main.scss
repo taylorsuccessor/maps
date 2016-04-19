@@ -1,0 +1,50 @@
+
+@import 'variables';
+
+@import 'classes';
+
+body{}
+
+.logo{ max-width: 100%;}
+
+#topPageIconsBar{float:right;
+background-image:url('../images/cornerImg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 40px 100%;
+}
+
+
+.mainMenu li a span{ color:$darkFontColor;}
+
+
+#pricesLine{
+
+background-color:#32302f;
+.oneSymbolPrice{
+  float:left;
+  padding:3px;
+
+  i.up{
+    color:green;
+  }
+  i.down{
+    color:red;
+  }
+  label{ color:#c7462e; margin:0px;}
+  span{
+    color:$liteFontColor;
+
+  }
+
+}
+}
+
+
+#openAccountButtonsContainer{
+  margin-top:15px;
+  margin-bottom:30px;
+  .button{ width:40%;}
+  .liteButton{margin-left:10%; }
+}
+@import 'slider';
