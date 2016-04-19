@@ -54,6 +54,8 @@ background-color:#32302f;
 
 
 #mapGroupContainer{
+  display:inline-block;
+  background-color:#F2F2F2;
 #leftImgContainer{
 
 img{
@@ -79,9 +81,68 @@ p{ margin:5px 0px;
   .mainGroup{}
 }
 
+#rightGroupsContainer{
+}
 
 
 
+
+
+.oneDescriptionWithButton{
+  img{
+    float:left;
+    width:50px;
+    margin:10px;
+  }
+  h6{}
+  p{}
+  a{
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+
+}
+
+
+#softwareBanner{
+
+  margin:50px 0px;
+  margin-bottom:150px;
+  background-image:url('../images/platformsBackground.png');
+height:267px;
+  padding-top:50px;
+
+    .innerContainer{
+      background-image: url(../images/computerPlatforms.png);
+      background-size: 451px 270px;
+      background-position: right 40px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-top: 20px;
+      padding-top: 70px;
+      height: 270px;
+      margin-bottom: -80px;
+      padding-right: 405px;
+        h4{color:#43D7F1;}
+        p{color:#F8F9FA;}
+
+      a.button{ text-transform: uppercase;
+      padding:10px;
+        color:#ffffff;
+        margin:10px;
+      }
+        a.primaryButton{}
+
+        a.whiteButton{color:#717171; background-color:#D9D9D8;//#D9D9D8 to #FFFFFF
+          background: linear-gradient(to top,#D9D9D8,#FFFFFF);
+        }
+
+        a.blueButton{background-color:#202D36; //#202D36 to #5B788A
+          background: linear-gradient(to top,#202D36, #5F7B8C);
+        }
+}
+}
 
 
 @import 'slider';

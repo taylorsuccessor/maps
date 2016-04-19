@@ -20,7 +20,8 @@
   text-align: center; }
   .centerTitleText h3 {
     text-align: center;
-    margin: 25px 0px 10px 0px; }
+    margin: 25px 0px 10px 0px;
+    text-transform: uppercase; }
   .centerTitleText span {
     display: block;
     width: 50px;
@@ -56,6 +57,9 @@
   background-repeat: no-repeat;
   background-position: center top;
   height: 20px; }
+
+.bgCover {
+  background-size: cover; }
 
 .logo {
   max-width: 100%; }
@@ -93,23 +97,69 @@
   #openAccountButtonsContainer .liteButton {
     margin-left: 10%; }
 
-#mapGroupContainer #leftImgContainer img {
-  max-width: 100%; }
-#mapGroupContainer .oneGroup {
-  padding: 20px; }
-  #mapGroupContainer .oneGroup span {
-    float: left;
-    margin: 0px 10px 10px 0px;
-    display: block;
-    font-size: 40px; }
-    #mapGroupContainer .oneGroup span img {
-      max-width: 40px;
-      height: auto; }
-  #mapGroupContainer .oneGroup h6 {
-    color: #912d25; }
-  #mapGroupContainer .oneGroup p {
-    margin: 5px 0px;
-    padding-left: 50px; }
+#mapGroupContainer {
+  display: inline-block;
+  background-color: #F2F2F2; }
+  #mapGroupContainer #leftImgContainer img {
+    max-width: 100%; }
+  #mapGroupContainer .oneGroup {
+    padding: 20px; }
+    #mapGroupContainer .oneGroup span {
+      float: left;
+      margin: 0px 10px 10px 0px;
+      display: block;
+      font-size: 40px; }
+      #mapGroupContainer .oneGroup span img {
+        max-width: 40px;
+        height: auto; }
+    #mapGroupContainer .oneGroup h6 {
+      color: #912d25; }
+    #mapGroupContainer .oneGroup p {
+      margin: 5px 0px;
+      padding-left: 50px; }
+
+.oneDescriptionWithButton img {
+  float: left;
+  width: 50px;
+  margin: 10px; }
+.oneDescriptionWithButton a {
+  display: block;
+  width: 150px;
+  margin: auto; }
+
+#softwareBanner {
+  margin: 50px 0px;
+  margin-bottom: 150px;
+  background-image: url("../images/platformsBackground.png");
+  height: 267px;
+  padding-top: 50px; }
+  #softwareBanner .innerContainer {
+    background-image: url(../images/computerPlatforms.png);
+    background-size: 451px 270px;
+    background-position: right 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 70px;
+    height: 270px;
+    margin-bottom: -80px;
+    padding-right: 405px; }
+    #softwareBanner .innerContainer h4 {
+      color: #43D7F1; }
+    #softwareBanner .innerContainer p {
+      color: #F8F9FA; }
+    #softwareBanner .innerContainer a.button {
+      text-transform: uppercase;
+      padding: 10px;
+      color: #ffffff;
+      margin: 10px; }
+    #softwareBanner .innerContainer a.whiteButton {
+      color: #717171;
+      background-color: #D9D9D8;
+      background: linear-gradient(to top, #D9D9D8, #FFFFFF); }
+    #softwareBanner .innerContainer a.blueButton {
+      background-color: #202D36;
+      background: linear-gradient(to top, #202D36, #5F7B8C); }
 
 .sliderAllContainer .oneSlide {
   height: 459px;
