@@ -3,25 +3,41 @@
 <ul class="horizontalUl">
     <li>
         <a href="#">
-            <i class="fa fa-user"></i>
-            <span>Users</span>
+            <span>english  </span>
+            <i class="fa fa-caret-down"></i>
         </a>
     </li>
     <li>
         <a href="#">
             <i class="fa fa-users"></i>
-            <span>Users</span>
+            <span>log in</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="fa fa-users"></i>
+            <span>live chat</span>
         </a>
     </li>
 
+    <li>
+
+        <i class=""></i>
+        <span>US </span>
+
+    </li>
 
 </ul>
+    <div class="inputWithIcon" id="headerSearchInput">
+        <i class="fa fa-search"></i>
+        <input name="search" type="text">
+       </div>
 
 </div>
 </div>
 
     <div class="row clearfix">
-    <div class="container" >
+    <div class="container" id="mainMenuContainer" >
 
             <div class="col-xs-2">
                 <img src="images/logo.png" class="logo">
@@ -33,7 +49,7 @@
                     <li>
                         <a href="#">
                             <i class=""></i>
-                            <span>HOME</span>
+                            <span>Home </span>
                         </a>
 
                     </li>
@@ -42,7 +58,7 @@
                     <li>
                         <a href="#">
                             <i class=""></i>
-                            <span>HOME</span>
+                            <span>services</span>
                         </a>
 
                     </li>
@@ -51,10 +67,32 @@
                     <li>
                         <a href="#">
                             <i class=""></i>
-                            <span>HOME</span>
+                            <span> products </span>
                         </a>
 
                     </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class=""></i>
+                            <span> trading platform</span>
+                        </a>
+
+                    </li>
+
+
+
+
+                    <li>
+                        <a href="#">
+                            <i class=""></i>
+                            <span>  about us</span>
+                        </a>
+
+                    </li>
+
+
                 </ul>
 
 

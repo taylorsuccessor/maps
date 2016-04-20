@@ -6,18 +6,16 @@
   float: left; }
 
 .horizontalUl li span, .horizontalUl li i {
-  color: #ffffff; }
+  color: #EFE0DF; }
 
 .horizontalUl li a {
   color: #ffffff;
-  display: block;
-  padding: 5px; }
-
-.horizontalUl li i {
-  padding: 0px 50px; }
+  padding: 0px 12px;
+  margin: 3px 0px; }
 
 .centerTitleText {
-  text-align: center; }
+  text-align: center;
+  padding: 30px 0px; }
   .centerTitleText h3 {
     text-align: center;
     margin: 25px 0px 10px 0px;
@@ -25,7 +23,7 @@
   .centerTitleText span {
     display: block;
     width: 50px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #912d25;
     margin: auto; }
 
 .button {
@@ -33,17 +31,17 @@
   text-decoration: none;
   padding: 5px 0px;
   border-radius: 4px;
-  display: inline-block; }
+  display: inline-block;
+  text-decoration: none; }
 
 .primaryButton {
   background-color: #912d25;
   color: #ffffff;
-  border: 1px solid #912d25; }
-
-.liteButton {
-  color: #912d25;
-  border: 1px solid #912d25;
-  background-color: #ffffff; }
+  border: 1px solid #AE756D; }
+  .primaryButton:hover {
+    color: #912d25;
+    border: 1px solid #912d25;
+    background-color: #ffffff; }
 
 .longButton {
   padding: 5px 30px; }
@@ -61,6 +59,19 @@
 .bgCover {
   background-size: cover; }
 
+.inputWithIcon {
+  display: inline;
+  overflow: auto;
+  padding: 2px; }
+  .inputWithIcon i {
+    float: left;
+    padding: 2px; }
+  .inputWithIcon input {
+    float: left;
+    border: none;
+    outline: none;
+    color: #fff; }
+
 .logo {
   max-width: 100%; }
 
@@ -70,9 +81,53 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: 40px 100%; }
+  #topPageIconsBar ul {
+    float: left;
+    margin: 4px 0px; }
+    #topPageIconsBar ul a {
+      color: #EFE0DF;
+      border-right: 1px solid #ffffff;
+      margin: 3px 0px; }
+    #topPageIconsBar ul i {
+      padding: 0px 10px; }
+    #topPageIconsBar ul span {
+      text-transform: uppercase;
+      padding-right: 5px;
+      letter-spacing: 1px;
+      font-size: 15px; }
+  #topPageIconsBar #headerSearchInput {
+    background-color: #70211A;
+    border-radius: 10px;
+    float: left;
+    margin: 5px 10px; }
+    #topPageIconsBar #headerSearchInput i {
+      color: #EFE0DF;
+      font-size: 14px; }
+    #topPageIconsBar #headerSearchInput input {
+      width: 60px;
+      background-color: transparent;
+      height: 17px; }
 
-.mainMenu li a span {
-  color: #000000; }
+#mainMenuContainer {
+  padding: 20px 0px; }
+
+.mainMenu {
+  margin: 0px;
+  margin-top: 30px;
+  float: right; }
+  .mainMenu li {
+    margin: 0px 10px; }
+    .mainMenu li a {
+      padding: 5px 15px;
+      text-decoration: none; }
+      .mainMenu li a span {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #595959; }
+      .mainMenu li a:hover {
+        background-color: #912d25; }
+        .mainMenu li a:hover span {
+          color: #ffffff; }
 
 #pricesLine {
   background-color: #32302f; }
@@ -91,11 +146,10 @@
 
 #openAccountButtonsContainer {
   margin-top: 15px;
-  margin-bottom: 30px; }
+  margin-bottom: 50px;
+  padding-left: 10%; }
   #openAccountButtonsContainer .button {
     width: 40%; }
-  #openAccountButtonsContainer .liteButton {
-    margin-left: 10%; }
 
 #mapGroupContainer {
   display: inline-block;
@@ -120,8 +174,11 @@
 
 .oneDescriptionWithButton img {
   float: left;
-  width: 50px;
-  margin: 10px; }
+  width: 80px; }
+.oneDescriptionWithButton h3 {
+  padding-top: 20px; }
+.oneDescriptionWithButton p {
+  clear: both; }
 .oneDescriptionWithButton a {
   display: block;
   width: 150px;
@@ -160,6 +217,136 @@
     #softwareBanner .innerContainer a.blueButton {
       background-color: #202D36;
       background: linear-gradient(to top, #202D36, #5F7B8C); }
+
+.columnLabelsContainer {
+  margin-top: 30px; }
+  .columnLabelsContainer .columnLabel {
+    float: left; }
+    .columnLabelsContainer .columnLabel .labelBorder {
+      width: 80%;
+      margin-left: 10%;
+      border: 1px solid #000000;
+      border-bottom: none;
+      text-align: center;
+      position: relative;
+      height: 30px; }
+    .columnLabelsContainer .columnLabel label {
+      position: absolute;
+      top: -20px;
+      display: inline-block;
+      background-color: #ffffff;
+      padding: 3px 10px; }
+  .columnLabelsContainer #leftLabel {
+    width: 60%; }
+    .columnLabelsContainer #leftLabel .labelBorder {
+      width: 67%;
+      margin-left: 16%; }
+    .columnLabelsContainer #leftLabel label {
+      left: 29%; }
+  .columnLabelsContainer #rightLabel {
+    width: 40%; }
+    .columnLabelsContainer #rightLabel .labelBorder {
+      width: 55%;
+      margin-left: 25%; }
+    .columnLabelsContainer #rightLabel label {
+      left: 7%; }
+
+.accountsTypesColumns .oneAccountTypeColumn {
+  width: 18%;
+  margin: 1%;
+  float: left; }
+  .accountsTypesColumns .oneAccountTypeColumn .innerContainer {
+    display: block;
+    padding: 8%; }
+    .accountsTypesColumns .oneAccountTypeColumn .innerContainer h3 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding-bottom: 15px; }
+    .accountsTypesColumns .oneAccountTypeColumn .innerContainer ul {
+      padding-top: 20px;
+      padding-left: 0px;
+      list-style: none; }
+    .accountsTypesColumns .oneAccountTypeColumn .innerContainer ul li {
+      list-style: none;
+      margin: 0px; }
+    .accountsTypesColumns .oneAccountTypeColumn .innerContainer ul li:before {
+      font: normal normal normal 10px/1 FontAwesome;
+      content: "\f111";
+      margin-right: 7px; }
+    .accountsTypesColumns .oneAccountTypeColumn .innerContainer a {
+      width: 100%; }
+.accountsTypesColumns .oneAccountTypeColumn.white {
+  background: linear-gradient(to top, #D9D9D8, #FFFFFF);
+  border: 1px solid #BEBEBE;
+  color: #6D6D6D; }
+  .accountsTypesColumns .oneAccountTypeColumn.white h3 {
+    border-bottom: 1px solid #BEBEBE; }
+  .accountsTypesColumns .oneAccountTypeColumn.white ul li:before {
+    color: #6D6D6D; }
+.accountsTypesColumns .oneAccountTypeColumn.dark {
+  background: #912d25;
+  border: 1px solid #963B30;
+  color: #ffffff; }
+  .accountsTypesColumns .oneAccountTypeColumn.dark h3 {
+    border-bottom: 1px solid #862A1F; }
+  .accountsTypesColumns .oneAccountTypeColumn.dark ul {
+    border-top: 1px solid #BB4637; }
+  .accountsTypesColumns .oneAccountTypeColumn.dark ul li:before {
+    color: #691E15; }
+
+#paymentLine div {
+  float: left;
+  width: 10%;
+  text-align: center; }
+#paymentLine img {
+  max-width: 100%; }
+
+#bottomBoxesMenus {
+  background-color: #303236; }
+  #bottomBoxesMenus .container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  #bottomBoxesMenus .oneMenuBox h5 {
+    border-bottom: 1px solid #6D6D6D;
+    color: #912d25;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+  #bottomBoxesMenus .oneMenuBox ul {
+    border-top: 1px solid #3C3F45;
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+  #bottomBoxesMenus .oneMenuBox ul li, #bottomBoxesMenus .oneMenuBox ol li {
+    list-style: none; }
+  #bottomBoxesMenus .oneMenuBox ol {
+    list-style: none;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px; }
+  #bottomBoxesMenus .oneMenuBox ol li {
+    float: left;
+    width: 20%;
+    text-align: center; }
+  #bottomBoxesMenus .oneMenuBox a {
+    display: block;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none; }
+  #bottomBoxesMenus .oneMenuBox a:hover {
+    background-color: #202124; }
+
+#bottomRow {
+  text-align: center;
+  color: #ffffff;
+  background-color: #202124; }
+  #bottomRow p {
+    font-size: 10px;
+    padding: 20px 0px;
+    text-align: justify;
+    color: #A7A7A7; }
 
 .sliderAllContainer .oneSlide {
   height: 459px;
